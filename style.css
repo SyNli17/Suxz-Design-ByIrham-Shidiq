@@ -1,0 +1,580 @@
+:root {
+  --first-color: #22293e;
+  --second-color: #8c82fc;
+  --third-color: #44e4c9;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #fff;
+}
+/* hero section start */
+
+header {
+  margin: 0rem 7.1rem;
+}
+nav {
+  display: flex;
+  margin-bottom: 6.5rem;
+  margin-top: 4.4rem;
+}
+nav .logo-website {
+  display: flex;
+  margin-right: 4.4rem;
+}
+.logo-website img {
+  width: 2.5rem;
+  height: 3.1rem;
+  margin-right: 0.8rem;
+}
+.logo-website h1 {
+  color: #000;
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+nav .navbar-nav {
+  display: flex;
+  padding-top: 0.7rem;
+  position: relative;
+  margin-left: 3.5rem;
+  margin-right: 12rem;
+}
+.navbar-nav a {
+  color: var(--first-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-right: 2.5rem;
+  transition: 0.3s;
+}
+.navbar-nav a:hover {
+  color: var(--second-color);
+}
+nav .nav-button {
+  display: flex;
+}
+.nav-button .log_in {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--second-color);
+  background-color: #fff;
+}
+.nav-button .sign_up {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 0.6rem;
+  background-color: var(--second-color);
+  padding: 0.7rem 2.1rem;
+  margin-left: 2.6rem;
+}
+section {
+  display: flex;
+  margin: 0 7.1rem;
+}
+
+section .section_content_text {
+  margin-right: 5.3rem;
+  margin-top: 2rem;
+}
+.section_content_text,
+.learning-section h4,
+.about-section-text,
+h4 {
+  color: var(--second-color);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.section_content_text h1 {
+  height: 10.8rem;
+  width: 27.1rem;
+  color: #000;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1.6rem;
+}
+.hero-section .section_content_text p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #22293e;
+  width: 32.9rem;
+  height: 5.6rem;
+  margin-bottom: 3rem;
+}
+section img {
+  width: 35rem;
+  height: 38rem;
+}
+.section_content_text .button_section_hero .get_started {
+  color: #fff;
+  padding: 1.2rem 3.3rem;
+  font-size: 1.4rem;
+  font-weight: 550;
+  background-color: var(--second-color);
+  border-radius: 0.6rem;
+  margin-right: 2.5rem;
+}
+.section_content_text .button_section_hero .Our_service {
+  color: #a2b3bf;
+  background-color: #f7f7fd;
+  padding: 1.2rem 3.3rem;
+  font-size: 1.4rem;
+  font-weight: 550;
+  border-radius: 0.6rem;
+}
+/* hero section end */
+
+/* Learning section start */
+.learning-section {
+  background-color: #f8f8ff;
+}
+.learning-section-text {
+  margin: 3.7rem 7.1rem;
+}
+.learning-section h3 {
+  width: 34.6rem;
+  height: 7.5rem;
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: var(--first-color);
+}
+.learning-section p {
+  width: 25.2rem;
+  height: 3.7rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--first-color);
+}
+.learning-section .card {
+  display: flex;
+  margin: 0 7.1rem;
+}
+.learning-section .card .card-white {
+  width: 15.5rem;
+  height: 20.6rem;
+  background-color: #fff;
+  border-radius: 0.7rem;
+  margin-right: 4.5rem;
+  transition: 0.4s;
+}
+.learning-section .card .card-white:hover {
+  background-color: var(--second-color);
+}
+.learning-section .card-white img {
+  width: 5rem;
+  height: 5rem;
+  margin: 1.8rem;
+}
+
+.learning-section .card-white h5 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--first-color);
+  margin-left: 1.8rem;
+  margin-bottom: 0.6rem;
+}
+.learning-section .card-white h5:hover {
+  color: #fff;
+}
+.learning-section .card-white p:hover {
+  color: #fff;
+}
+.learning-section .card-white p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--first-color);
+  margin-left: 1.8rem;
+}
+
+.learning-section .card .button {
+  border-radius: 0.3rem;
+  padding: 0.5rem 3.5rem;
+  background-color: var(--third-color);
+  color: #fff;
+  position: absolute;
+  margin: 1.8rem 1.3rem;
+}
+/* Learning section end */
+
+/* about section start */
+.about-section {
+  background-color: #fff;
+  display: flex;
+  margin: 10rem 7.1rem;
+}
+.about-section .image {
+  margin-right: 9.5rem;
+}
+.about-section .img-about {
+  width: 37rem;
+  height: 32.2rem;
+  margin-top: 3rem;
+}
+.testi-biodata {
+  display: flex;
+  width: 17.8rem;
+  height: 6.2rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 100px #8ca3ac;
+  border: 1px solid #fff;
+  border-radius: 0.6rem;
+  position: absolute;
+  margin-top: 32rem;
+  margin-left: 9.3rem;
+}
+.testi-biodata img {
+  width: 3.7rem;
+  height: 4.1rem;
+  margin-left: 1.2rem;
+  margin-top: 0.6rem;
+}
+.testi-biodata .biodata {
+  display: block;
+}
+
+.biodata h6 {
+  font-size: 1.1rem;
+  font-size: 700;
+  margin-left: 1.2rem;
+  margin-top: 0.6rem;
+}
+.biodata p {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #a2b3bf;
+  width: 3.3rem;
+  height: 1rem;
+  margin-left: 1.2rem;
+  margin-top: 0.3rem;
+}
+.biodata img {
+  width: 7.1rem;
+  height: 1rem;
+}
+.about-section-text h3 {
+  width: 28rem;
+  height: 7.5rem;
+  font-size: 2.7rem;
+  font-weight: 800;
+  margin-top: 0.3rem;
+  color: var(--first-color);
+}
+.about-section-text p {
+  margin-top: 1.2rem;
+}
+.about-section-text ul {
+  margin-top: 3.1rem;
+}
+.about-section-text ul li {
+  display: flex;
+  margin-bottom: 1.8rem;
+}
+.about-section-text li img {
+  width: 50px;
+  height: 50px;
+  margin-right: 1.5rem;
+  margin-top: 1.3rem;
+}
+.about-section-text li i p {
+  font-size: 1.2rem;
+}
+/* about section end */
+
+/* Company section start */
+.company-section {
+  background-color: #f8f8ff;
+}
+
+.company-section h3 {
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: 800;
+  color: var(--first-color);
+  margin-bottom: 1.2rem;
+}
+.company-section p {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--first-color);
+  margin-bottom: 1.7rem;
+}
+.company-section ul {
+  width: 56.5rem;
+  height: 13.6rem;
+  display: block;
+  margin: 5.2rem 16rem;
+}
+.company-section ul li {
+  display: flex;
+  margin-bottom: 5rem;
+}
+.company-section ul li img {
+  margin-right: 4.2rem;
+}
+.company-section ul li .github {
+  width: 10.6rem;
+  height: 3.3rem;
+}
+.company-section ul li .microsoft {
+  width: 11.8rem;
+  height: 2.5rem;
+}
+.company-section ul li .redis {
+  width: 10.6rem;
+  height: 3.3rem;
+}
+.company-section ul .amazon {
+  width: 10.6rem;
+  margin-top: 0.5rem;
+}
+.company-section ul li .paypal {
+  width: 10.6rem;
+  height: 2.6rem;
+}
+.company-section ul li .linkedin {
+  width: 10rem;
+  height: 2.6rem;
+  margin-left: 0.5rem;
+  margin-right: 6rem;
+}
+.company-section ul li .reddit {
+  width: 10rem;
+  height: 3.2rem;
+}
+
+.company-section ul li .medium {
+  width: 11.2rem;
+  height: 2.3rem;
+  margin-left: 1rem;
+}
+/* Company section end */
+
+/* testimonial section start */
+.testimonial-section {
+  background-color: #fff;
+}
+.testimonial-section .image {
+}
+.testimonial-section .image img {
+  width: 6.2rem;
+  height: 6.2rem;
+  border-radius: 50%;
+}
+.testimonial-section .image .jason {
+  position: absolute;
+  margin-left: 10.7rem;
+  /* margin-top: 3rem; */
+}
+.testimonial-section .image .cassandra {
+  position: absolute;
+  margin-left: 29.2rem;
+  /* margin-top: 3rem; */
+}
+.testimonial-section .image .peter {
+  position: absolute;
+  margin-left: 47.3rem;
+  /* margin-top: 3rem; */
+}
+.testimonial-section .image .jean {
+  margin-left: 66.1rem;
+  /* margin-top: 3rem; */
+  position: absolute;
+}
+.testimonial-section h3 {
+  font-size: 2.7rem;
+  font-weight: 800;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  color: var(--first-color);
+  text-align: center;
+}
+.testimonial-section h4 {
+  color: var(--second-color);
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.testimonial-section p {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--first-color);
+  margin-bottom: 1.7rem;
+}
+.testimonial-section .testimonial-card {
+  display: flex;
+  margin: 0 7.1rem;
+}
+.testimonial-section .testimonial-card .card {
+  width: 15rem;
+  height: 19rem;
+  border-radius: 0.6rem;
+  border: 1px solid var(--second-color);
+  margin-right: 5.2rem;
+  margin-top: 50px;
+}
+.testimonial-section .testimonial-card .card h5 {
+  color: var(--first-color);
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5rem;
+}
+.testimonial-section .testimonial-card .card h6 {
+  color: #bab8d2;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 1.8rem;
+}
+.testimonial-section .testimonial-card .card p {
+  width: 11.9rem;
+  height: 5.7rem;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: auto;
+}
+/* testimonial section end */
+
+/* offer to join start */
+.offer {
+  width: 90rem;
+  height: 23.8rem;
+  margin-top: 5rem;
+  background-size: cover;
+  background-image: url(asset/img-footer.png);
+}
+.transparency-layer {
+  width: 90rem;
+  height: 23.8rem;
+  opacity: 0.9;
+  background-color: #0000008c;
+  padding: 5rem 20.6rem;
+}
+.content-offer h3 {
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: 800;
+  color: white;
+}
+.content-offer p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+}
+.content-offer .button {
+  justify-content: center;
+  margin-top: 2.6rem;
+  display: flex;
+}
+.content-offer .button .get-started {
+  background-color: var(--second-color);
+  border: 1px solid var(--second-color);
+  border-radius: 0.6rem;
+  padding: 1.2rem 3.3rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: white;
+}
+.content-offer .button .contact-us {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: white;
+  margin-left: 3.1rem;
+  margin-top: 1.3rem;
+  transition: 0.3;
+}
+
+/* offer to join end */
+
+/* footer section start */
+.footer-section-start {
+  display: flex;
+  margin: 5rem 7.1rem;
+}
+.footer-section-start .sub-text {
+}
+.footer-section-start .titel {
+  display: flex;
+  width: 8.4rem;
+  height: 3.1rem;
+}
+.footer-section-start .titel img {
+  width: 2.1rem;
+  height: 3.1rem;
+  margin-right: 0.7rem;
+}
+.footer-section-start .titel h3 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #000;
+}
+.footer-section-start .sub-text p {
+  width: 26rem;
+  height: 6.3rem;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: var(--first-color);
+  margin-top: 2.6rem;
+  margin-right: 7.1rem;
+}
+.footer-section-start .company {
+  margin-right: 4.3rem;
+}
+.footer-section-start .links {
+  margin-right: 7.1rem;
+}
+.footer-section-start .contact .footer-section-start .company,
+.links,
+.contact,
+h5 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--first-color);
+  margin-bottom: 1.2rem;
+}
+.footer-section-start .company a {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--first-color);
+  margin-bottom: 1.2rem;
+}
+.footer-section-start .links a {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--first-color);
+  margin-bottom: 1.2rem;
+}
+.footer-section-start .telephone,
+.mail {
+  display: flex;
+  margin-bottom: 1.2rem;
+}
+.footer-section-start .telephone,
+.mail img {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 0.8rem;
+}
+
+.footer-section-start,
+.contact .telephone,
+.mail p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--second-color);
+}
+
+/* footer section end */
